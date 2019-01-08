@@ -2,23 +2,23 @@ GEM
   remote: https://rubygems.org/
   specs:
     guess_html_encoding (0.0.11)
-    mini_portile2 (2.3.0)
-    mustermann (1.0.2)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
-    puma (3.11.3)
-    rack (2.0.4)
-    rack-protection (2.0.1)
+    mini_portile2 (2.4.0)
+    mustermann (1.0.3)
+    nokogiri (1.10.0)
+      mini_portile2 (~> 2.4.0)
+    puma (3.12.0)
+    rack (2.0.6)
+    rack-protection (2.0.5)
       rack
     ruby-readability (0.7.0)
       guess_html_encoding (>= 0.0.4)
       nokogiri (>= 1.6.0)
-    sinatra (2.0.1)
+    sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.5)
       tilt (~> 2.0)
-    tilt (2.0.8)
+    tilt (2.0.9)
 
 PLATFORMS
   ruby
@@ -29,4 +29,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
